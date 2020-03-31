@@ -9,7 +9,7 @@ und gibt die Ergebnisse aus
 #include<stdio.h>
 #include<math.h>
 
-#define PI 3.1415
+#define PI 3.1415926
 //Funktion zur Berechnung der Oberfläche
 double surface(double r) {
 
@@ -33,7 +33,7 @@ int main(void) {
     printf("Radius: %lf\n", radius);
     printf("Oberfl%cche: %lf\n", 132, surface(radius));
     printf("Volumen: %lf\n", volume(radius));
-    //getchar();
+    getchar();
     return 0;
 
 

@@ -34,7 +34,7 @@ int main(void) {
     printf("Der Wert der Variablen \"size\" ist: %d\n", size);
     printf("Der Wert der Variablen \"firstValue\" ist: %e\n", firstValue);
     printf("Der Wert der Variablen \"flaeche\" ist: %f\n", flaeche);
-    //getchar();
+    getchar();
     return 0;
 }
 

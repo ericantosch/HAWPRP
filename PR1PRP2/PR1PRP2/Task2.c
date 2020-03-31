@@ -17,10 +17,10 @@ int main(void) {
     double c = 0.01234;
     //Ausgabe der Werte mit Bezeichnung
     printf("ZAHL\t        WURZEL\t\n");
-    printf("%lf\t%lf\n", a, sqrt(a));
-    printf("%f\t%f\n", b, sqrt(b));
-    printf("%lf\t%lf\n", c, sqrt(c));
-    //getchar();
+    printf("%10.5lf\t%10.5lf\n", a, sqrt(a));
+    printf("%10.5lf\t%10.5lf\n", b, sqrt(b));
+    printf("%10.5lf\t%10.5lf\n", c, sqrt(c));
+    getchar();
     return 0;
 
 

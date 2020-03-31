@@ -25,7 +25,7 @@ int main(void) {
 	}
 
 	printf("Kleiner Buchstabe: %c", asciiValue); //Ausgabe des kleinen Buchstaben mit einem impliziten Cast auf Char.
-	//getchar();
+	getchar();
 	return 0; //End of Program
 
 }
