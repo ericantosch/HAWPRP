@@ -12,8 +12,8 @@ diese in einer Tabelle wieder aus.
 
 int main(void) {
     //Deklaration der Variablen mit Werten
-    float a = 4;
-    float b = 12.25;
+    double a = 4;
+    double b = 12.25;
     double c = 0.01234;
     //Ausgabe der Werte mit Bezeichnung
     printf("ZAHL\t        WURZEL\t\n");

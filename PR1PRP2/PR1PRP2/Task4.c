@@ -14,7 +14,7 @@ int main(void) {
 	upperCase = getchar();
 	int asciiValue = upperCase; //Buchstaben zum Int casten, um den ASCII-Wert zu bekommen
 		
-	if (asciiValue >= 65 && asciiValue <= 90) //Überprüfen, ob der ASCII-Wert einem großen Buchstaben entspricht
+	if (asciiValue >= 'A' && asciiValue <= 'Z') //Überprüfen, ob der ASCII-Wert einem großen Buchstaben entspricht
 	{
 		asciiValue += 32; // Falls true, dann wird der Buchstabe in einen Kleinen umgewandelt
 	}

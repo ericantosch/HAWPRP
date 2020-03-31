@@ -13,13 +13,13 @@ und gibt die Ergebnisse aus
 //Funktion zur Berechnung der Oberfläche
 double surface(double r) {
 
-    return pow(r, 2) * PI * 4;
+    return r * r * PI * 4;
 
 }
 //Funktion zur Berechnung des Volumens
 double volume(double r) {
 
-    return (pow(r, 3) * 4) / 3 * PI;
+    return (r * r * r * 4) / 3 * PI;
 
 }
 //Ausgabe der Ergebnisse in der main-Funktion
